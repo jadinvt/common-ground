@@ -1,0 +1,56 @@
+body { font-family: arial, sans-serif; }
+
+.hiddenLink { position: absolute; top: -300px; }
+
+a:link { text-decoration: none; color: #336697; }
+a:visited { text-decoration: none; color: #558888; }
+a:hover { background-color: #99cccc; color: #000000; }
+a:active { background-color: #99cccc; color: #666666; }
+
+a.external {
+	padding-left: 15px;
+	background: transparent url(../images/external_link.gif) top left no-repeat;
+  position: relative;
+}
+a.external:hover { background-color: #99cccc; }
+a.external:active { background-color: #99cccc; }
+.externalText { position: absolute; left: -1200px; }
+
+#nav ul li a:link, #nav ul li a:visited {
+	text-decoration: none;
+	font-variant: small-caps;
+	color: #000000;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	font-size: 0.8em;
+}
+#nav ul li.current a:link, #nav ul li.current a:visited {
+	background-color: #99cccc;
+}
+#nav ul li a:hover { background-color: #99cccc; }
+#nav ul li a:active { background-color: #88bbbb; color: #999999; }
+
+h2 {
+	width: 70%;
+	font-size: 1.2em;
+	color: #336666;
+	border-bottom: 1px solid #999999;
+}
+h3 { font-size: 1.1em; color: #558888; }
+h4 { font-size: 1em; color: #558888; font-weight: bold; }
+
+#news { font-size: 0.8em; }
+#news .newsDate { color: #666666; font-size: 0.9em; }
+#news h3 { width: 80%; border-bottom: 1px solid #666666; color: #447777; }
+#news .newsItem { margin-top: 1em; }
+
+#tip { font-size: 0.9em; }
+
+table td, table th { border: 1px solid #666666; padding: 0.2em; }
+table#cssSupport { margin: 0 auto; }
+caption { margin-bottom: 0.5em; text-align: left; }
+
+#footer { color: #666666; text-align: right; font-size: 0.8em; }
+#footer input, #footer label { font-size: 0.9em; }
+#footer fieldset { padding: 0; margin: 0; border: none; }
+#footer legend { padding: 0; color: #666666; }

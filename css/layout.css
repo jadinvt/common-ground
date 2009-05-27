@@ -1,0 +1,63 @@
+body
+{
+	background: url(../images/stripe.gif);
+  position: relative;
+}
+
+h1{
+	position: absolute;
+	top: -500px;
+}
+
+#wrapper {
+	width: 800px;
+	background: #ffffff url(../images/fade.gif) repeat-y;
+  position: relative;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#header{
+	background: url(../images/logo.gif) no-repeat;
+  position: relative;
+	height: 75px;
+}
+
+#nav ul {
+	background-color: #77AAAA;
+}
+
+#nav li {
+	background-color: #77AAAA;
+	float: left;
+	list-style: none;
+	border: 1px;
+}
+
+#nav li a{
+	padding-top: 3px;
+	margin-right: 2em;
+}
+
+#mainContent{
+	background: #ffffff;	
+}
+
+#content {
+	position: relative;
+	padding-right: 310px;
+	clear: both;
+	background-color: #99cccc;
+}
+
+#news{
+	
+	width: 300px;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+
+* html #news{
+	right: 10px;
+}
